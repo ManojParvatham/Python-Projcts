@@ -1,7 +1,6 @@
-# importing the required module
 import random
 
-#this function will ask the user whether he/she want to play again or not ?.
+#this function will ask the user whether he/she want to play again or not ?
 def roll_dice():
     print('\nDo you want to play again ?')
     print('Enter Yes/No')
@@ -30,7 +29,3 @@ if __name__ == '__main__':
         else:
             print('Wrong Input !!! Enter again Yes/No')
             choice = roll_dice()
-
-
-
-
